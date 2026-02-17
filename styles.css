@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f5f7fa;
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px 0;
+    height: 44px;
+}
+
+.navbar i {
+    font-size: 1.5rem;
+    color: #dadfe6;
+}
+
+.navbar i:nth-child(1) {
+    color: #fe466d;
+}
+
+.photo-and-actions {
+    min-height: calc(100vh - 44px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.photo {
+    width: 100%;
+    max-width: 400px;
+    height: 85vh;
+    background: url("imagens/carol tinder.jpg") center/cover no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: #eee;
+    box-shadow: 0 2px 10px 0 rgba(136, 136, 136, 0.77);
+    position: relative;
+    overflow: hidden;
+}
+
+.photo-text {
+    padding: 15px;
+    width: 100%;
+    background: linear-gradient(180deg,
+            rgba(2, 0, 36, 1) 0%,
+            rgba(35, 34, 65, 0) 0%,
+            rgba(0, 0, 0, 0.7) 52%);
+}
+
+.photo {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    height: 85vh;
+    background: url("imagens/carol tinder.jpg") center/cover no-repeat;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-end;
+    color: #eee;
+    box-shadow: 0 2px 10px rgba(136, 136, 136, 0.77);
+    overflow: hidden;
+}
+
+.app {
+    width: 330px;
+    margin: 0 auto;
+}
+
+.card {
+    position: relative;
+    height: 520px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-info {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    color: white;
+}
+
+.card-info h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.actions button {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background: white;
+    font-size: 18px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+/* cores */
+.actions .dislike {
+    color: #fe466d;
+}
+
+.actions .superlike {
+    color: #2db5ff;
+}
+
+.actions .like {
+    color: #1be4a1;
+}
+
+
+
+.actions .dislike {
+    color: #fe466d;
+}
+
+.actions .superlike {
+    color: #2db5ff;
+}
+
+.actions .like {
+    color: #1be4a1;
+}
